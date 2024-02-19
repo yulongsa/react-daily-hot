@@ -10,7 +10,6 @@ import { CopyrightOutlined, GithubOutlined } from '@ant-design/icons'
 import { Divider, Row, Space, Typography } from 'antd'
 import { FC } from 'react'
 
-import BeianImage from '@/assets/gongan.png'
 import IcpImage from '@/assets/icp.png'
 
 const { Text } = Typography;
