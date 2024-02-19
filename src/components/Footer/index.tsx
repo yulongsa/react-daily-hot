@@ -26,26 +26,14 @@ const Footer: FC = () => {
           </a>
         </Space>
         <Divider type="vertical" />
-        <Space size="small" align="center" wrap>
-          <Text type="secondary">本项目基于</Text>
-          <a href="https://github.com/imsyy/DailyHot" target="_blank">
-            <Space size="small" align="center" wrap>
-              <Text type="secondary"><GithubOutlined style={{ marginRight: 5 }} />imsyy - DailyHot</Text>
-            </Space>
-          </a>
-          <Text type="secondary">改造</Text>
-        </Space>
+
       </Row>
       <Row justify="center" align="middle">
-        <a href="https://beian.miit.gov.cn/" target="_blank" title="粤ICP备2023007649号">
-          <img src={IcpImage} alt="粤ICP备2023007649号" style={{ width: 16, marginRight: 5 }} />
-          <Text type="secondary">粤ICP备2023007649号</Text>
+        <a href="https://beian.miit.gov.cn/" target="_blank" title="鲁ICP备2023011061号">
+          <img src={IcpImage} alt="鲁ICP备2023011061号" style={{ width: 16, marginRight: 5 }} />
+          <Text type="secondary">鲁ICP备2023011061号</Text>
         </a>
-        <Divider type="vertical" />
-        <a href="https://beian.mps.gov.cn/#/query/webSearch" target="_blank" title="粤公网安备44030402006402号">
-          <img src={BeianImage} alt="粤公网安备44030402006402号" style={{ width: 16, marginRight: 5 }} />
-          <Text type="secondary">粤公网安备44030402006402号</Text>
-        </a>
+
       </Row>
     </Space>
   )
