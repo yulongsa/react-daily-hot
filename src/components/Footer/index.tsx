@@ -34,8 +34,8 @@ const Footer: FC = () => {
           <Text type="secondary">鲁ICP备2023011061号</Text>
         </a>
         <Divider type="vertical" />
-        <a href="https://beian.mps.gov.cn/#/query/webSearch" target="_blank" title="">
-          <img src={BeianImage} alt="" style={{ width: 16, marginRight: 5 }} />
+        <a href="https://beian.mps.gov.cn/#/query/webSearch" target="_blank" title="无">
+          <img src={BeianImage} alt="无" style={{ width: 16, marginRight: 5 }} />
           <Text type="secondary"></Text>
         </a>
       </Row>
