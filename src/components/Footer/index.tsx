@@ -17,13 +17,19 @@ const { Text } = Typography;
 
 const Footer: FC = () => {
   return (
-    <Space direction="vertical" size="small" style={{ display: 'flex', padding: '20px 0' }}>
+    <Space direction="vertical" size="small" style={{ display: 'flex', flexDirection: 'column', padding: '20px 0', alignItems: 'center' }}>
       <Row justify="center" align="middle">
         <Space size="small" align="center" wrap>
-          <Text type="secondary"><CopyrightOutlined style={{ marginRight: 5 }} />Power by</Text>
+          <Text type="secondary">
+            <CopyrightOutlined style={{ marginRight: 5 }} />
+            Power by
+          </Text>
           <a href="https://github.com/baiwumm" target="_blank">
-            <Text type="secondary"><GithubOutlined style={{ marginRight: 5 }} />白雾茫茫丶</Text>
-          </a>
+            <Text type="secondary">
+              <GithubOutlined style={{ marginRight: 5 }} />
+              白雾茫茫丶
+            </Text>
+            </a>
         </Space>
         <Divider type="vertical" />
 
