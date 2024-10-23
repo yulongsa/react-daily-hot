@@ -29,9 +29,9 @@ const Footer: FC = () => {
 
       </Row>
       <Row justify="center" align="middle">
-        <a href="https://beian.miit.gov.cn/" target="_blank" title="鲁ICP备2023011061号">
+        <a href="https://beian.miit.gov.cn/" target="_blank" title="鲁ICP备2024111948号">
           <img src={IcpImage} alt="" style={{ width: 16, marginRight: 5 }} />
-          <Text type="secondary">鲁ICP备2023011061号</Text>
+          <Text type="secondary">鲁ICP备2024111948号</Text>
         </a>
         <Divider type="vertical" />
         <a href="https://beian.mps.gov.cn/#/query/webSearch" target="_blank" title="无">
